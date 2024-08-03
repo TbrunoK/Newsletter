@@ -26,7 +26,8 @@ O rodapé é projetado para ser informativo e visualmente atraente, com ícones 
 Este projeto demonstra habilidades em HTML e CSS, com foco em criar um site responsivo e bem estilizado, alinhado com as melhores práticas de design web.
 
 <div>
-  <a href="https://tbrunok.github.io/Newsletter/">
-<img src="![image](https://github.com/user-attachments/assets/7b63a661-ee62-49ec-901e-ceda3a66bfbe)"></img
+<a href="https://tbrunok.github.io/Newsletter/">
+  <img src="https://github.com/TbrunoK/Newsletter/blob/main/assets/img/projeto-final.png?raw=true">
 </a>
+
 </div>
