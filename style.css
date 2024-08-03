@@ -117,12 +117,37 @@ body {
 }
 
 footer {
-  margin-top: 0px;
   width: 1226px;
   height: 586px;
-
   color: white;
   text-align: left;
-  padding: 20px 20px; /* Ajuste de padding para alinhamento à esquerda */
-  box-sizing: border-box;
+}
+
+.container-footer {
+  display: flex;
+  width: 1260px;
+  height: 160px;
+}
+
+.container-item {
+  margin-left: 0px;
+  max-width: 274px;
+  max-height: 164px;
+  margin-right: 40px;
+}
+
+.container-item img {
+  margin-bottom: 16px;
+}
+
+.container-item h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.container-item p {
+  font-size: 14;
+  font-weight: 400;
+  color: var(--color-gray200);
 }
