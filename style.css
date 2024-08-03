@@ -9,7 +9,8 @@
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -21,10 +22,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 20px;
+  max-width: 1226px;
+  height: 586px;
   box-sizing: border-box;
+  flex-grow: 1;
 }
 
 .content {
@@ -39,7 +40,6 @@ body {
 }
 
 .container-intro p {
-  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -53,6 +53,7 @@ body {
 .container-intro h1 {
   margin-top: 16px;
   color: white;
+  font-size: 48px;
 }
 
 .container-intro h2 {
@@ -60,17 +61,17 @@ body {
   font-weight: 400;
   font-size: 20px;
   margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .container-botao {
   display: flex;
+  margin-top: 32px;
 }
 
 .container-botao button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .btn {
@@ -103,15 +104,25 @@ body {
 
 .container-botao :nth-child(2) {
   color: black;
+  justify-content: center;
 }
 
 .container-image {
-  max-width: 50%;
-  margin-left: 32px;
+  margin-left: 141px;
 }
 
 .container-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+}
+
+footer {
+  margin-top: 0px;
+  width: 1226px;
+  height: 586px;
+
+  color: white;
+  text-align: left;
+  padding: 20px 20px; /* Ajuste de padding para alinhamento à esquerda */
+  box-sizing: border-box;
 }
