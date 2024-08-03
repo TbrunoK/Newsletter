@@ -21,8 +21,6 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1226px;
   height: 586px;
   box-sizing: border-box;
@@ -31,13 +29,12 @@ body {
 
 .content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
 .container-intro {
-  max-width: 600px;
+  width: 1000px;
 }
 
 .container-intro p {
@@ -69,9 +66,9 @@ body {
   margin-top: 32px;
 }
 
-.container-botao input  {
+.container-botao input {
   padding: 16px 12px;
-  
+
   border-radius: 4px;
   background-color: var(--color-gray800);
   color: var(--color-gray200);
