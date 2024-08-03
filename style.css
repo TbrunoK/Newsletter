@@ -200,7 +200,7 @@ footer {
 
 @media (max-width: 800px) {
   body {
-    width: 1000px;
+    width: auto;
   }
   .container {
     flex-direction: column;
