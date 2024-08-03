@@ -24,3 +24,8 @@ Estilo e Layout:
 O layout principal é dividido em duas colunas: uma para o conteúdo de introdução e outra para a imagem.
 O rodapé é projetado para ser informativo e visualmente atraente, com ícones e textos que destacam os principais benefícios.
 Este projeto demonstra habilidades em HTML e CSS, com foco em criar um site responsivo e bem estilizado, alinhado com as melhores práticas de design web.
+
+<div>
+  <a href="https://tbrunok.github.io/Newsletter/">![image](https://github.com/user-attachments/assets/7b63a661-ee62-49ec-901e-ceda3a66bfbe)
+</a>
+</div>
