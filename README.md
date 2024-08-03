@@ -1,4 +1,5 @@
 # Newsletter
+
 Descrição do Projeto: Newsletter 40
 
 Este projeto é uma implementação do desafio número 40, focado em criar uma página de assinatura de newsletter com um design moderno e responsivo. O objetivo principal foi desenvolver uma interface limpa e atraente que incentive os visitantes a se inscreverem na newsletter para receber atualizações sobre inspirações para espaços de trabalho.
