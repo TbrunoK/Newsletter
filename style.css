@@ -24,7 +24,7 @@ body {
   height: 100vh;
 
   margin: 16rem 7rem;
-  max-width: 70rem;
+
   height: 36rem;
   box-sizing: border-box;
   flex-grow: 1;
@@ -36,14 +36,10 @@ body {
   width: 100%;
 }
 
-.container-intro {
-  width: 62rem;
-}
-
 .container-intro p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   background: linear-gradient(to right, #996dff 0%, #c7afff 100%);
   -webkit-background-clip: text;
@@ -54,13 +50,13 @@ body {
 .container-intro h1 {
   margin-top: 1rem;
   color: white;
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 .container-intro h2 {
   color: var(--color-gray200);
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.5em;
   margin-top: 2rem;
 }
 
@@ -77,8 +73,9 @@ body {
   color: var(--color-gray200);
   border: none;
   outline: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
+  
 }
 
 .btn2 {
@@ -108,23 +105,23 @@ body {
   height: auto;
 }
 
-footer {
+section {
   display: grid;
-  width: 70rem;
-  height: 586px;
   color: white;
   text-align: left;
-  max-width: 70rem;
 }
 
-.container-footer {
-  display: flex;
-  max-width: 70rem;
-  height: 10rem;
+.container-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4px;
+  gap: 20px;
+  
 }
 
 .container-item {
   margin-top: 10rem;
+  margin-left: 0px;
 }
 
 .container-item img {
@@ -144,3 +141,14 @@ footer {
 }
 
 /* Responsivo */
+
+@media (max-width: 760px) {
+  
+  .container-intro {
+    margin-top: -5rem
+  }
+
+  .container-section {
+    margin-top: -6rem;
+  }
+}
